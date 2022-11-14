@@ -117,7 +117,6 @@ docker-run:
 		--net cookiecutter_pyapp_test_default \
 		--env-file .docker.env \
 		hypothesis/cookiecutter-pyapp-test:$(DOCKER_TAG)
-		hypothesis/cookiecutter-pyapp-test:$(DOCKER_TAG)
 
 .PHONY: clean
 $(call help,make clean,"delete temporary files etc")
