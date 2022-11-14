@@ -1,0 +1,30 @@
+{
+  "template": "https://github.com/hypothesis/cookiecutters",
+  "checkout": null,
+  "directory": "pyapp",
+  "ignore": [],
+  "extra_context": {
+    "name": "Python App Cookiecutter Test",
+    "package_name": "cookiecutter_pyapp_test",
+    "slug": "cookiecutter-pyapp-test",
+    "short_description": "A test app for our pyapp cookiecutter.",
+    "python_version": "3.10.6",
+    "github_owner": "hypothesis",
+    "visibility": "public",
+    "copyright_holder": "Hypothesis",
+    "dependabot_pip_interval": "monthly",
+    "dependabot_npm_interval": "monthly",
+    "dependabot_docker_interval": "monthly",
+    "devdata": "no",
+    "services": "yes",
+    "docker": "yes",
+    "__docker_namespace": "hypothesis",
+    "__docker_network": "cookiecutter_pyapp_test_default",
+    "__github_url": "https://github.com/hypothesis/cookiecutter-pyapp-test",
+    "__hdev_project_type": "application",
+    "_jinja2_env_vars": {
+      "lstrip_blocks": true,
+      "trim_blocks": true
+    }
+  }
+}
