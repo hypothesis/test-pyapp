@@ -11,10 +11,6 @@ attrs==22.1.0
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pytest
-beautifulsoup4==4.11.1
-    # via
-    #   -r requirements/functests.txt
-    #   webtest
 build==0.9.0
     # via
     #   -r requirements/functests.txt
@@ -45,10 +41,6 @@ faker==15.3.1
     #   factory-boy
 freezegun==1.2.2
     # via -r requirements/tests.txt
-gunicorn==20.1.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
 h-matchers==1.2.15
     # via
     #   -r requirements/functests.txt
@@ -57,11 +49,6 @@ httpretty==1.1.4
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-hupper==1.10.3
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pyramid
 iniconfig==1.1.1
     # via
     #   -r requirements/functests.txt
@@ -73,21 +60,12 @@ lazy-object-proxy==1.8.0
     # via astroid
 mccabe==0.7.0
     # via pylint
-newrelic==8.4.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
 packaging==21.3
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   build
     #   pytest
-pastedeploy==3.0.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   plaster-pastedeploy
 pep517==0.13.0
     # via
     #   -r requirements/functests.txt
@@ -98,17 +76,6 @@ pip-tools==6.10.0
     #   -r requirements/functests.txt
     #   -r requirements/lint.in
     #   -r requirements/tests.txt
-plaster==1.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   plaster-pastedeploy
-    #   pyramid
-plaster-pastedeploy==1.0.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pyramid
 platformdirs==2.5.4
     # via pylint
 pluggy==1.0.0
@@ -127,10 +94,6 @@ pyparsing==3.0.9
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   packaging
-pyramid==2.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
 pytest==7.2.0
     # via
     #   -r requirements/functests.txt
@@ -148,10 +111,6 @@ six==1.16.0
     #   python-dateutil
 snowballstemmer==2.2.0
     # via pydocstyle
-soupsieve==2.3.2.post1
-    # via
-    #   -r requirements/functests.txt
-    #   beautifulsoup4
 toml==0.10.2
     # via -r requirements/lint.in
 tomli==2.0.1
@@ -165,28 +124,6 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.11.6
     # via pylint
-translationstring==1.4
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pyramid
-venusian==3.0.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pyramid
-waitress==2.1.2
-    # via
-    #   -r requirements/functests.txt
-    #   webtest
-webob==1.8.7
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pyramid
-    #   webtest
-webtest==3.0.0
-    # via -r requirements/functests.txt
 wheel==0.38.4
     # via
     #   -r requirements/functests.txt
@@ -194,16 +131,6 @@ wheel==0.38.4
     #   pip-tools
 wrapt==1.14.1
     # via astroid
-zope-deprecation==4.4.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pyramid
-zope-interface==5.5.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pyramid
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==22.3.1
@@ -215,8 +142,4 @@ setuptools==65.5.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-    #   gunicorn
     #   pip-tools
-    #   pyramid
-    #   zope-deprecation
-    #   zope-interface
