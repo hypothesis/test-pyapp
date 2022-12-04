@@ -16,7 +16,6 @@
     "dependabot_npm_interval": "monthly",
     "dependabot_docker_interval": "monthly",
     "devdata": "no",
-    "services": "yes",
     "docker": "yes",
     "__docker_namespace": "hypothesis",
     "__docker_network": "cookiecutter_pyapp_test_default",

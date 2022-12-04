@@ -40,6 +40,13 @@ jobs:
       - run: tox -e lint
   Tests:
     runs-on: ubuntu-latest
+    services:
+      elasticsearch:
+        image: hypothesis/elasticsearch:latest
+        ports:
+        - 9202:9200
+        env:
+          discovery.type: single-node
     steps:
       - uses: actions/checkout@v3
       - name: Install Python
@@ -84,6 +91,13 @@ jobs:
       - run: tox -e coverage
   Functests:
     runs-on: ubuntu-latest
+    services:
+      elasticsearch:
+        image: hypothesis/elasticsearch:latest
+        ports:
+        - 9202:9200
+        env:
+          discovery.type: single-node
     steps:
       - uses: actions/checkout@v3
       - name: Install Python

@@ -1,0 +1,6 @@
+elasticsearch:
+  image: hypothesis/elasticsearch:latest
+  ports:
+  - 9202:9200
+  env:
+    discovery.type: single-node
