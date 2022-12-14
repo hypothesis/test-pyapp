@@ -5,10 +5,6 @@ help = help::; @echo $$$$(tput bold)$(strip $(1)):$$$$(tput sgr0) $(strip $(2))
 $(call help,make help,print this help message)
 
 .PHONY: services
-$(call help,make services,start the services that the app needs)
-services: args?=up -d
-services: python
-	@tox -qe dockercompose -- $(args)
 
 .PHONY: devdata
 
@@ -108,12 +104,11 @@ $(call help,make docker,"make the app's docker image")
 docker:
 	@git archive --format=tar HEAD | docker build -t hypothesis/cookiecutter-pyapp-test:$(DOCKER_TAG) -
 
-.PHONY: run-docker
+.PHONY: docker-run
 $(call help,make docker-run,"run the app's docker image")
 docker-run:
 	@docker run \
 		--add-host host.docker.internal:host-gateway \
-		--net cookiecutter_pyapp_test_default \
 		--env-file .docker.env \
 		hypothesis/cookiecutter-pyapp-test:$(DOCKER_TAG)
 
