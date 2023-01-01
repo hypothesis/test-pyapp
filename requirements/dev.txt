@@ -56,7 +56,7 @@ six==1.16.0
     #   python-dateutil
 stack-data==0.6.1
     # via ipython
-supervisor==4.2.4
+supervisor==4.2.5
     # via -r requirements/dev.in
 tomli==2.0.1
     # via
