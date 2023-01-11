@@ -24,6 +24,7 @@
     "_jinja2_env_vars": {
       "lstrip_blocks": true,
       "trim_blocks": true
-    }
+    },
+    "__copyright_year": "2022"
   }
 }
