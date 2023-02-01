@@ -20,7 +20,7 @@ factory-boy==3.2.1
     # via -r requirements/dev.in
 faker==15.3.1
     # via factory-boy
-ipython==8.7.0
+ipython==8.9.0
     # via -r requirements/dev.in
 jedi==0.18.1
     # via ipython
@@ -36,6 +36,8 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
+pip==22.3.1
+    # via pip-tools
 pip-tools==6.12.1
     # via -r requirements/dev.in
 prompt-toolkit==3.0.32
@@ -50,6 +52,10 @@ pyparsing==3.0.9
     # via packaging
 python-dateutil==2.8.2
     # via faker
+setuptools==65.5.1
+    # via
+    #   pip-tools
+    #   supervisor
 six==1.16.0
     # via
     #   asttokens
@@ -70,11 +76,3 @@ wcwidth==0.2.5
     # via prompt-toolkit
 wheel==0.38.4
     # via pip-tools
-
-# The following packages are considered to be unsafe in a requirements file:
-pip==22.3.1
-    # via pip-tools
-setuptools==65.5.1
-    # via
-    #   pip-tools
-    #   supervisor
