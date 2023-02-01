@@ -71,11 +71,6 @@ pep517==0.13.0
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   build
-pip==22.3.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pip-tools
 pip-tools==6.12.1
     # via
     #   -r requirements/functests.txt
@@ -99,7 +94,7 @@ pyparsing==3.0.9
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   packaging
-pytest==7.2.0
+pytest==7.2.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
@@ -109,11 +104,6 @@ python-dateutil==2.8.2
     #   -r requirements/tests.txt
     #   faker
     #   freezegun
-setuptools==65.5.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pip-tools
 six==1.16.0
     # via
     #   -r requirements/functests.txt
