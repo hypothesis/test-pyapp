@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements/lint.in
 #
-astroid==2.12.12
+astroid==2.13.5
     # via pylint
 attrs==22.1.0
     # via
@@ -71,6 +71,11 @@ pep517==0.13.0
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   build
+pip==22.3.1
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   pip-tools
 pip-tools==6.12.1
     # via
     #   -r requirements/functests.txt
@@ -87,7 +92,7 @@ pycodestyle==2.10.0
     # via -r requirements/lint.in
 pydocstyle==6.1.1
     # via -r requirements/lint.in
-pylint==2.15.6
+pylint==2.15.10
     # via -r requirements/lint.in
 pyparsing==3.0.9
     # via
@@ -104,6 +109,11 @@ python-dateutil==2.8.2
     #   -r requirements/tests.txt
     #   faker
     #   freezegun
+setuptools==65.5.1
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   pip-tools
 six==1.16.0
     # via
     #   -r requirements/functests.txt
@@ -124,6 +134,8 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.11.6
     # via pylint
+typing-extensions==4.4.0
+    # via astroid
 wheel==0.38.4
     # via
     #   -r requirements/functests.txt
@@ -131,15 +143,3 @@ wheel==0.38.4
     #   pip-tools
 wrapt==1.14.1
     # via astroid
-
-# The following packages are considered to be unsafe in a requirements file:
-pip==22.3.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pip-tools
-setuptools==65.5.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pip-tools
