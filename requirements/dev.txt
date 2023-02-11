@@ -17,11 +17,11 @@ decorator==5.1.1
 executing==1.2.0
     # via stack-data
 factory-boy==3.2.1
-    # via -r requirements/dev.in
+    # via -r dev.in
 faker==15.3.1
     # via factory-boy
-ipython==8.9.0
-    # via -r requirements/dev.in
+ipython==8.10.0
+    # via -r dev.in
 jedi==0.18.1
     # via ipython
 matplotlib-inline==0.1.6
@@ -36,10 +36,8 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pip==22.3.1
-    # via pip-tools
 pip-tools==6.12.1
-    # via -r requirements/dev.in
+    # via -r dev.in
 prompt-toolkit==3.0.32
     # via ipython
 ptyprocess==0.7.0
@@ -52,10 +50,6 @@ pyparsing==3.0.9
     # via packaging
 python-dateutil==2.8.2
     # via faker
-setuptools==65.5.1
-    # via
-    #   pip-tools
-    #   supervisor
 six==1.16.0
     # via
     #   asttokens
@@ -63,7 +57,7 @@ six==1.16.0
 stack-data==0.6.1
     # via ipython
 supervisor==4.2.5
-    # via -r requirements/dev.in
+    # via -r dev.in
 tomli==2.0.1
     # via
     #   build
