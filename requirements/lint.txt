@@ -87,7 +87,7 @@ pycodestyle==2.10.0
     # via -r requirements/lint.in
 pydocstyle==6.3.0
     # via -r requirements/lint.in
-pylint==2.16.2
+pylint==2.16.3
     # via -r requirements/lint.in
 pyparsing==3.0.9
     # via
