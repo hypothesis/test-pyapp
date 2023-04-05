@@ -106,16 +106,16 @@ DOCKER_TAG = dev
 .PHONY: docker
 $(call help,make docker,"make the app's docker image")
 docker:
-	@git archive --format=tar HEAD | docker build -t hypothesis/cookiecutter-pyapp-test:$(DOCKER_TAG) -
+	@git archive --format=tar HEAD | docker build -t hypothesis/test-pyapp:$(DOCKER_TAG) -
 
 .PHONY: docker-run
 $(call help,make docker-run,"run the app's docker image")
 docker-run:
 	@docker run \
 		--add-host host.docker.internal:host-gateway \
-		--net cookiecutter_pyapp_test_default \
+		--net test_pyapp_default \
 		--env-file .docker.env \
-		hypothesis/cookiecutter-pyapp-test:$(DOCKER_TAG)
+		hypothesis/test-pyapp:$(DOCKER_TAG)
 
 .PHONY: clean
 $(call help,make clean,"delete temporary files etc")
@@ -128,4 +128,4 @@ clean:
 python:
 	@bin/make_python
 
--include cookiecutter_pyapp_test.mk
+-include test_pyapp.mk

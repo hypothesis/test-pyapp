@@ -1,6 +1,6 @@
-<a href="https://github.com/hypothesis/cookiecutter-pyapp-test/actions/workflows/ci.yml?query=branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/hypothesis/cookiecutter-pyapp-test/ci.yml?branch=main"></a>
+<a href="https://github.com/hypothesis/test-pyapp/actions/workflows/ci.yml?query=branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/hypothesis/test-pyapp/ci.yml?branch=main"></a>
 <a><img src="https://img.shields.io/badge/python-3.10-success"></a>
-<a href="https://github.com/hypothesis/cookiecutter-pyapp-test/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--2--Clause-success"></a>
+<a href="https://github.com/hypothesis/test-pyapp/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--2--Clause-success"></a>
 <a href="https://github.com/hypothesis/cookiecutters/tree/main/pyapp"><img src="https://img.shields.io/badge/cookiecutter-pyapp-success"></a>
 <a href="https://black.readthedocs.io/en/stable/"><img src="https://img.shields.io/badge/code%20style-black-000000"></a>
 
@@ -29,8 +29,8 @@ First you'll need to install:
 Then to set up your development environment:
 
 ```terminal
-git clone https://github.com/hypothesis/cookiecutter-pyapp-test.git
-cd cookiecutter-pyapp-test
+git clone https://github.com/hypothesis/test-pyapp.git
+cd test-pyapp
 make services
 make help
 ```

@@ -5,8 +5,8 @@
   "ignore": [],
   "extra_context": {
     "name": "Python App Cookiecutter Test",
-    "package_name": "cookiecutter_pyapp_test",
-    "slug": "cookiecutter-pyapp-test",
+    "package_name": "test_pyapp",
+    "slug": "test-pyapp",
     "short_description": "A test app for our pyapp cookiecutter.",
     "python_version": "3.10.6",
     "github_owner": "hypothesis",
@@ -18,8 +18,8 @@
     "devdata": "no",
     "docker": "yes",
     "__docker_namespace": "hypothesis",
-    "__docker_network": "cookiecutter_pyapp_test_default",
-    "__github_url": "https://github.com/hypothesis/cookiecutter-pyapp-test",
+    "__docker_network": "test_pyapp_default",
+    "__github_url": "https://github.com/hypothesis/test-pyapp",
     "__hdev_project_type": "application",
     "_jinja2_env_vars": {
       "lstrip_blocks": true,
