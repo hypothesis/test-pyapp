@@ -38,10 +38,10 @@ ignore = [
 [tool.coverage.run]
 branch = true
 parallel = true
-source = ["cookiecutter_pyapp_test", "tests/unit"]
+source = ["test_pyapp", "tests/unit"]
 omit = [
-    "*/cookiecutter_pyapp_test/__main__.py",
-    "*/cookiecutter_pyapp_test/app.py",
+    "*/test_pyapp/__main__.py",
+    "*/test_pyapp/app.py",
 ]
 
 [tool.coverage.paths]
@@ -60,7 +60,7 @@ force_grid_wrap = 0
 use_parentheses = true
 line_length = 88
 default_section = "THIRDPARTY"
-known_first_party = ["cookiecutter_pyapp_test", "tests"]
+known_first_party = ["test_pyapp", "tests"]
 
 [tool.pylint.main]
 jobs = 0 # Use one process for CPU.
