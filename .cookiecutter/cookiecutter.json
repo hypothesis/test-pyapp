@@ -18,7 +18,7 @@
     "devdata": "no",
     "docker": "yes",
     "__docker_namespace": "hypothesis",
-    "__docker_network": "test_pyapp_default",
+    "__docker_network": "test-pyapp_default",
     "__github_url": "https://github.com/hypothesis/test-pyapp",
     "__hdev_project_type": "application",
     "_jinja2_env_vars": {

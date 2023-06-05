@@ -113,7 +113,7 @@ $(call help,make docker-run,"run the app's docker image")
 docker-run:
 	@docker run \
 		--add-host host.docker.internal:host-gateway \
-		--net test_pyapp_default \
+		--net test-pyapp_default \
 		--env-file .docker.env \
 		hypothesis/test-pyapp:$(DOCKER_TAG)
 
