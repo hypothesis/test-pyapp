@@ -17,13 +17,13 @@ decorator==5.1.1
 executing==1.2.0
     # via stack-data
 factory-boy==3.2.1
-    # via -r requirements/dev.in
+    # via -r dev.in
 faker==15.3.1
     # via factory-boy
 importlib-metadata==6.6.0
     # via pip-sync-faster
 ipython==8.14.0
-    # via -r requirements/dev.in
+    # via -r dev.in
 jedi==0.18.1
     # via ipython
 matplotlib-inline==0.1.6
@@ -39,10 +39,10 @@ pexpect==4.8.0
 pickleshare==0.7.5
     # via ipython
 pip-sync-faster==0.0.3
-    # via -r requirements/dev.in
+    # via -r dev.in
 pip-tools==6.13.0
     # via
-    #   -r requirements/dev.in
+    #   -r dev.in
     #   pip-sync-faster
 prompt-toolkit==3.0.32
     # via ipython
@@ -50,7 +50,7 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.2
     # via stack-data
-pygments==2.13.0
+pygments==2.15.0
     # via ipython
 pyparsing==3.0.9
     # via packaging
@@ -63,7 +63,7 @@ six==1.16.0
 stack-data==0.6.1
     # via ipython
 supervisor==4.2.5
-    # via -r requirements/dev.in
+    # via -r dev.in
 tomli==2.0.1
     # via
     #   build
