@@ -1,4 +1,13 @@
 services:
+  postgres:
+    image: postgres:15.3-alpine
+    ports:
+      - "127.0.0.1:17977:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 1s
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
   elasticsearch:
     image: hypothesis/elasticsearch:latest
     ports:

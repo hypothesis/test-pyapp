@@ -60,6 +60,12 @@ jobs:
   Tests:
     runs-on: ubuntu-latest
     services:
+      postgres:
+        image: postgres:15.3-alpine
+        ports:
+        - 17977:5432
+        env:
+          POSTGRES_HOST_AUTH_METHOD: trust
       elasticsearch:
         image: hypothesis/elasticsearch:latest
         ports:
@@ -79,6 +85,8 @@ jobs:
           key: tests-${{ runner.os }}-tox-${{ hashFiles('tox.ini') }}-${{ hashFiles('requirements/*') }}
           restore-keys: |
             tests-${{ runner.os }}-tox-
+      - name: Create test database
+        run: psql -U postgres -h localhost -p 17977 -c 'CREATE DATABASE test_pyapp_tests'
       - run: python -m pip install 'tox<4'
       - run: tox -e tests
       - name: Upload coverage file
@@ -111,6 +119,12 @@ jobs:
   Functests:
     runs-on: ubuntu-latest
     services:
+      postgres:
+        image: postgres:15.3-alpine
+        ports:
+        - 17977:5432
+        env:
+          POSTGRES_HOST_AUTH_METHOD: trust
       elasticsearch:
         image: hypothesis/elasticsearch:latest
         ports:
@@ -130,5 +144,7 @@ jobs:
           key: functests-${{ runner.os }}-tox-${{ hashFiles('tox.ini') }}-${{ hashFiles('requirements/*') }}
           restore-keys: |
             functests-${{ runner.os }}-tox-
+      - name: Create test database
+        run: psql -U postgres -h localhost -p 17977 -c 'CREATE DATABASE test_pyapp_functests'
       - run: python -m pip install 'tox<4'
       - run: tox -e functests

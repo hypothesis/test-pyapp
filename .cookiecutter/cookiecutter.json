@@ -17,6 +17,7 @@
     "dependabot_docker_interval": "monthly",
     "devdata": "no",
     "docker": "yes",
+    "postgres": "yes",
     "__docker_namespace": "hypothesis",
     "__docker_network": "test-pyapp_default",
     "__github_url": "https://github.com/hypothesis/test-pyapp",
