@@ -25,10 +25,11 @@ exceptiongroup==1.0.2
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pytest
-factory-boy==3.2.1
+factory-boy==3.3.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
+    #   pytest-factoryboy
 faker==15.3.1
     # via
     #   -r requirements/functests.txt
@@ -49,6 +50,11 @@ importlib-metadata==6.6.0
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pip-sync-faster
+inflection==0.5.1
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   pytest-factoryboy
 iniconfig==1.1.1
     # via
     #   -r requirements/functests.txt
@@ -104,6 +110,11 @@ pytest==7.4.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
+    #   pytest-factoryboy
+pytest-factoryboy==2.5.1
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
 python-dateutil==2.8.2
     # via
     #   -r requirements/functests.txt
@@ -130,8 +141,12 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.11.6
     # via pylint
-typing-extensions==4.4.0
-    # via astroid
+typing-extensions==4.7.1
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   astroid
+    #   pytest-factoryboy
 wheel==0.38.4
     # via
     #   -r requirements/functests.txt
