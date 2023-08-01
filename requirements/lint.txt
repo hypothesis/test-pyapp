@@ -89,7 +89,7 @@ pluggy==1.0.0
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pytest
-pycodestyle==2.10.0
+pycodestyle==2.11.0
     # via -r requirements/lint.in
 pydocstyle==6.3.0
     # via -r requirements/lint.in
