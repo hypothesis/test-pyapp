@@ -113,14 +113,6 @@ pytest==7.4.0
     #   pytest-cov
     #   pytest-factoryboy
 pytest-cov==4.1.0
-    # via
-    #   -r requirements/tests.txt
-    #   pytest-cover
-pytest-cover==3.0.0
-    # via
-    #   -r requirements/tests.txt
-    #   pytest-coverage
-pytest-coverage==0.0
     # via -r requirements/tests.txt
 pytest-factoryboy==2.5.1
     # via
