@@ -16,16 +16,16 @@ exceptiongroup==1.0.2
     # via pytest
 factory-boy==3.3.0
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pytest-factoryboy
 faker==15.3.1
     # via factory-boy
 freezegun==1.2.2
-    # via -r requirements/tests.in
+    # via -r tests.in
 h-matchers==1.2.15
-    # via -r requirements/tests.in
+    # via -r tests.in
 httpretty==1.1.4
-    # via -r requirements/tests.in
+    # via -r tests.in
 importlib-metadata==6.6.0
     # via pip-sync-faster
 inflection==0.5.1
@@ -39,10 +39,10 @@ packaging==21.3
 pep517==0.13.0
     # via build
 pip-sync-faster==0.0.3
-    # via -r requirements/tests.in
+    # via -r tests.in
 pip-tools==7.3.0
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pip-sync-faster
 pluggy==1.0.0
     # via pytest
@@ -50,13 +50,13 @@ pyparsing==3.0.9
     # via packaging
 pytest==7.4.3
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pytest-cov
     #   pytest-factoryboy
 pytest-cov==4.1.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-factoryboy==2.5.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 python-dateutil==2.8.2
     # via
     #   faker
@@ -78,7 +78,7 @@ zipp==3.15.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==22.3.1
+pip==23.3
     # via pip-tools
 setuptools==65.5.1
     # via pip-tools
