@@ -24,6 +24,8 @@ freezegun==1.4.0
     # via -r requirements/tests.in
 h-matchers==1.2.15
     # via -r requirements/tests.in
+h-testkit==1.0.1
+    # via -r requirements/tests.in
 httpretty==1.1.4
     # via -r requirements/tests.in
 importlib-metadata==6.6.0
