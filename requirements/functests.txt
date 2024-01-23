@@ -18,6 +18,8 @@ faker==15.3.1
     # via factory-boy
 h-matchers==1.2.15
     # via -r requirements/functests.in
+h-testkit==1.0.1
+    # via -r requirements/functests.in
 httpretty==1.1.4
     # via -r requirements/functests.in
 importlib-metadata==6.6.0

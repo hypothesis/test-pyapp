@@ -44,6 +44,10 @@ h-matchers==1.2.15
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
+h-testkit==1.0.1
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
 httpretty==1.1.4
     # via
     #   -r requirements/functests.txt
