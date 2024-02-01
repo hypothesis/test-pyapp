@@ -67,7 +67,7 @@ iniconfig==1.1.1
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pytest
-isort==5.12.0
+isort==5.13.2
     # via pylint
 mccabe==0.7.0
     # via pylint
