@@ -22,7 +22,7 @@ faker==15.3.1
     # via factory-boy
 importlib-metadata==6.6.0
     # via pip-sync-faster
-ipython==8.21.0
+ipython==8.22.1
     # via -r requirements/dev.in
 jedi==0.18.1
     # via ipython
@@ -67,7 +67,7 @@ tomli==2.0.1
     #   build
     #   pep517
     #   pip-tools
-traitlets==5.5.0
+traitlets==5.14.1
     # via
     #   ipython
     #   matplotlib-inline
