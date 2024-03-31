@@ -22,7 +22,7 @@ faker==15.3.1
     # via factory-boy
 importlib-metadata==6.6.0
     # via pip-sync-faster
-ipython==8.22.1
+ipython==8.23.0
     # via -r requirements/dev.in
 jedi==0.18.1
     # via ipython
@@ -71,6 +71,8 @@ traitlets==5.14.1
     # via
     #   ipython
     #   matplotlib-inline
+typing-extensions==4.10.0
+    # via ipython
 wcwidth==0.2.5
     # via prompt-toolkit
 wheel==0.38.4
