@@ -6,7 +6,7 @@
 #
 astroid==3.1.0
     # via pylint
-build==0.9.0
+build==1.2.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
@@ -76,17 +76,12 @@ packaging==21.3
     #   -r requirements/tests.txt
     #   build
     #   pytest
-pep517==0.13.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   build
 pip-sync-faster==0.0.3
     # via
     #   -r requirements/functests.txt
     #   -r requirements/lint.in
     #   -r requirements/tests.txt
-pip-tools==7.3.0
+pip-tools==7.4.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/lint.in
@@ -110,6 +105,12 @@ pyparsing==3.0.9
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   packaging
+pyproject-hooks==1.0.0
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   build
+    #   pip-tools
 pytest==8.1.1
     # via
     #   -r requirements/functests.txt
@@ -143,9 +144,9 @@ tomli==2.0.1
     #   -r requirements/tests.txt
     #   build
     #   coverage
-    #   pep517
     #   pip-tools
     #   pylint
+    #   pyproject-hooks
     #   pytest
 tomlkit==0.11.6
     # via pylint

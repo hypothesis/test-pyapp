@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements/tests.in
 #
-build==0.9.0
+build==1.2.1
     # via pip-tools
 click==8.1.3
     # via pip-tools
@@ -36,11 +36,9 @@ packaging==21.3
     # via
     #   build
     #   pytest
-pep517==0.13.0
-    # via build
 pip-sync-faster==0.0.3
     # via -r requirements/tests.in
-pip-tools==7.3.0
+pip-tools==7.4.1
     # via
     #   -r requirements/tests.in
     #   pip-sync-faster
@@ -48,6 +46,10 @@ pluggy==1.4.0
     # via pytest
 pyparsing==3.0.9
     # via packaging
+pyproject-hooks==1.0.0
+    # via
+    #   build
+    #   pip-tools
 pytest==8.1.1
     # via
     #   -r requirements/tests.in
@@ -67,8 +69,8 @@ tomli==2.0.1
     # via
     #   build
     #   coverage
-    #   pep517
     #   pip-tools
+    #   pyproject-hooks
     #   pytest
 typing-extensions==4.7.1
     # via pytest-factoryboy
