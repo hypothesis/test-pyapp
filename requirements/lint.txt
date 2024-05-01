@@ -76,6 +76,7 @@ packaging==21.3
     #   -r requirements/tests.txt
     #   build
     #   pytest
+    #   pytest-factoryboy
 pip-sync-faster==0.0.3
     # via
     #   -r requirements/functests.txt
@@ -119,7 +120,7 @@ pytest==8.1.1
     #   pytest-factoryboy
 pytest-cov==5.0.0
     # via -r requirements/tests.txt
-pytest-factoryboy==2.6.0
+pytest-factoryboy==2.7.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
