@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements/lint.in
 #
-astroid==3.1.0
+astroid==3.2.2
     # via pylint
 build==1.2.1
     # via
@@ -99,7 +99,7 @@ pycodestyle==2.11.1
     # via -r requirements/lint.in
 pydocstyle==6.3.0
     # via -r requirements/lint.in
-pylint==3.1.0
+pylint==3.2.2
     # via -r requirements/lint.in
 pyparsing==3.0.9
     # via
