@@ -10,7 +10,7 @@ click==8.1.7
     # via pip-tools
 importlib-metadata==7.1.0
     # via pip-sync-faster
-mypy==1.8.0
+mypy==1.10.0
     # via -r requirements/typecheck.in
 mypy-extensions==1.0.0
     # via mypy
