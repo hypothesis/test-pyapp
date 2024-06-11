@@ -8,7 +8,7 @@
     "package_name": "test_pyapp",
     "slug": "test-pyapp",
     "short_description": "A test app for our pyapp cookiecutter.",
-    "python_version": "3.10.6",
+    "python_version": "3.11.9",
     "github_owner": "hypothesis",
     "visibility": "public",
     "copyright_holder": "Hypothesis",
