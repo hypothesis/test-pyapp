@@ -10,17 +10,17 @@ click==8.1.7
     # via pip-tools
 importlib-metadata==7.1.0
     # via pip-sync-faster
-mypy==1.10.0
-    # via -r typecheck.in
+mypy==1.11.1
+    # via -r requirements/typecheck.in
 mypy-extensions==1.0.0
     # via mypy
 packaging==24.0
     # via build
 pip-sync-faster==0.0.4
-    # via -r typecheck.in
+    # via -r requirements/typecheck.in
 pip-tools==7.4.1
     # via
-    #   -r typecheck.in
+    #   -r requirements/typecheck.in
     #   pip-sync-faster
 pyproject-hooks==1.1.0
     # via
