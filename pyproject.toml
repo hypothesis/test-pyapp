@@ -153,8 +153,3 @@ module= [
   "tests.*",
 ]
 ignore_errors = true
-
-
-[tool.hdev]
-project_name = "test-pyapp"
-project_type = "application"
