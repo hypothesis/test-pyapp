@@ -24,6 +24,7 @@
       "lstrip_blocks": true,
       "trim_blocks": true
     },
-    "__copyright_year": "2022"
+    "__copyright_year": "2022",
+    "linter": "ruff"
   }
 }
