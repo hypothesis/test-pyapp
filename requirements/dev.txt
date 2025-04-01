@@ -20,8 +20,10 @@ faker==15.3.1
     # via factory-boy
 importlib-metadata==6.6.0
     # via pip-sync-faster
-ipython==8.33.0
+ipython==9.0.2
     # via -r requirements/dev.in
+ipython-pygments-lexers==1.1.1
+    # via ipython
 jedi==0.18.1
     # via ipython
 matplotlib-inline==0.1.6
@@ -45,7 +47,9 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
     # via stack-data
 pygments==2.15.0
-    # via ipython
+    # via
+    #   ipython
+    #   ipython-pygments-lexers
 pyparsing==3.0.9
     # via packaging
 pyproject-hooks==1.0.0
