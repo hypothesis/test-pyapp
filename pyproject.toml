@@ -70,6 +70,7 @@ source = ["test_pyapp", "tests/unit"]
 omit = [
     "*/test_pyapp/__main__.py",
     "*/test_pyapp/app.py",
+    "*/test_pyapp/_version.py",
 ]
 
 [tool.coverage.paths]
