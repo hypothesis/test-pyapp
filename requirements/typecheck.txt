@@ -11,7 +11,7 @@ click==8.1.7
 importlib-metadata==7.1.0
     # via pip-sync-faster
 mypy==1.16.0
-    # via -r requirements/typecheck.in
+    # via -r typecheck.in
 mypy-extensions==1.0.0
     # via mypy
 packaging==24.0
@@ -19,10 +19,10 @@ packaging==24.0
 pathspec==0.12.1
     # via mypy
 pip-sync-faster==0.0.5
-    # via -r requirements/typecheck.in
+    # via -r typecheck.in
 pip-tools==7.4.1
     # via
-    #   -r requirements/typecheck.in
+    #   -r typecheck.in
     #   pip-sync-faster
 pyproject-hooks==1.1.0
     # via
@@ -38,5 +38,5 @@ zipp==3.19.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==24.0
     # via pip-tools
-setuptools==70.0.0
+setuptools==78.1.1
     # via pip-tools
