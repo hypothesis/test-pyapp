@@ -10,12 +10,14 @@ click==8.1.7
     # via pip-tools
 importlib-metadata==7.1.0
     # via pip-sync-faster
-mypy==1.15.0
+mypy==1.16.0
     # via -r requirements/typecheck.in
 mypy-extensions==1.0.0
     # via mypy
 packaging==24.0
     # via build
+pathspec==0.12.1
+    # via mypy
 pip-sync-faster==0.0.5
     # via -r requirements/typecheck.in
 pip-tools==7.4.1
