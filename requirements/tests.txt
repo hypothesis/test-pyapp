@@ -45,13 +45,15 @@ pluggy==1.5.0
     # via
     #   pytest
     #   pytest-cov
+pygments==2.19.2
+    # via pytest
 pyparsing==3.0.9
     # via packaging
 pyproject-hooks==1.0.0
     # via
     #   build
     #   pip-tools
-pytest==8.3.5
+pytest==8.4.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
