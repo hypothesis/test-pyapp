@@ -81,6 +81,11 @@ pluggy==1.5.0
     #   -r requirements/tests.txt
     #   pytest
     #   pytest-cov
+pygments==2.19.2
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   pytest
 pyparsing==3.0.9
     # via
     #   -r requirements/functests.txt
@@ -92,7 +97,7 @@ pyproject-hooks==1.0.0
     #   -r requirements/tests.txt
     #   build
     #   pip-tools
-pytest==8.3.5
+pytest==8.4.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
