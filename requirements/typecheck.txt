@@ -20,7 +20,7 @@ pathspec==0.12.1
     # via mypy
 pip-sync-faster==0.0.5
     # via -r requirements/typecheck.in
-pip-tools==7.4.1
+pip-tools==7.5.1
     # via
     #   -r requirements/typecheck.in
     #   pip-sync-faster
@@ -38,7 +38,7 @@ zipp==3.19.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==25.2
     # via
-    #   -r prod.txt
+    #   -r requirements/prod.txt
     #   pip-tools
 setuptools==78.1.1
     # via pip-tools
