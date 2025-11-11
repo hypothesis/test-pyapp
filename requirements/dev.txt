@@ -64,7 +64,7 @@ six==1.16.0
     #   python-dateutil
 stack-data==0.6.1
     # via ipython
-supervisor==4.2.5
+supervisor==4.3.0
     # via -r requirements/dev.in
 traitlets==5.14.1
     # via
@@ -82,9 +82,7 @@ zipp==3.19.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==25.2
     # via
-    #   -r prod.txt
+    #   -r requirements/prod.txt
     #   pip-tools
 setuptools==78.1.1
-    # via
-    #   pip-tools
-    #   supervisor
+    # via pip-tools
