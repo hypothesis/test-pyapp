@@ -67,13 +67,13 @@ packaging==21.3
 pip-sync-faster==0.0.5
     # via
     #   -r functests.txt
-    #   -r lint.in
     #   -r tests.txt
+    #   -r requirements/lint.in
 pip-tools==7.4.1
     # via
     #   -r functests.txt
-    #   -r lint.in
     #   -r tests.txt
+    #   -r requirements/lint.in
     #   pip-sync-faster
 pluggy==1.5.0
     # via
@@ -116,7 +116,7 @@ python-dateutil==2.8.2
     #   faker
     #   freezegun
 ruff==0.13.2
-    # via -r lint.in
+    # via -r requirements/lint.in
 six==1.16.0
     # via
     #   -r functests.txt
@@ -139,7 +139,7 @@ zipp==3.19.1
     #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==25.3
+pip==25.2
     # via
     #   -r functests.txt
     #   -r tests.txt
