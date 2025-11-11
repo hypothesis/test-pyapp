@@ -26,7 +26,7 @@ inflection==0.5.1
     # via pytest-factoryboy
 iniconfig==1.1.1
     # via pytest
-packaging==21.3
+packaging==25.0
     # via
     #   build
     #   pytest
@@ -41,13 +41,11 @@ pluggy==1.5.0
     # via pytest
 pygments==2.19.2
     # via pytest
-pyparsing==3.0.9
-    # via packaging
 pyproject-hooks==1.0.0
     # via
     #   build
     #   pip-tools
-pytest==8.4.1
+pytest==9.0.0
     # via
     #   -r requirements/functests.in
     #   pytest-factoryboy
@@ -67,7 +65,7 @@ zipp==3.19.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==25.2
     # via
-    #   -r prod.txt
+    #   -r requirements/prod.txt
     #   pip-tools
 setuptools==78.1.1
     # via pip-tools
