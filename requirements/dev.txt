@@ -15,30 +15,32 @@ decorator==5.1.1
 executing==1.2.0
     # via stack-data
 factory-boy==3.3.3
-    # via -r requirements/dev.in
+    # via -r dev.in
 faker==15.3.1
     # via factory-boy
 importlib-metadata==6.6.0
     # via pip-sync-faster
 ipython==9.7.0
-    # via -r requirements/dev.in
+    # via -r dev.in
 ipython-pygments-lexers==1.1.1
     # via ipython
 jedi==0.18.1
     # via ipython
 matplotlib-inline==0.1.6
     # via ipython
-packaging==21.3
-    # via build
+packaging==26.0
+    # via
+    #   build
+    #   wheel
 parso==0.8.3
     # via jedi
 pexpect==4.8.0
     # via ipython
 pip-sync-faster==0.0.5
-    # via -r requirements/dev.in
+    # via -r dev.in
 pip-tools==7.5.2
     # via
-    #   -r requirements/dev.in
+    #   -r dev.in
     #   pip-sync-faster
 prompt-toolkit==3.0.41
     # via ipython
@@ -50,8 +52,6 @@ pygments==2.15.0
     # via
     #   ipython
     #   ipython-pygments-lexers
-pyparsing==3.0.9
-    # via packaging
 pyproject-hooks==1.0.0
     # via
     #   build
@@ -65,7 +65,7 @@ six==1.16.0
 stack-data==0.6.1
     # via ipython
 supervisor==4.3.0
-    # via -r requirements/dev.in
+    # via -r dev.in
 traitlets==5.14.1
     # via
     #   ipython
@@ -74,7 +74,7 @@ typing-extensions==4.10.0
     # via ipython
 wcwidth==0.2.5
     # via prompt-toolkit
-wheel==0.38.4
+wheel==0.46.2
     # via pip-tools
 zipp==3.19.1
     # via importlib-metadata
@@ -82,7 +82,7 @@ zipp==3.19.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==25.3
     # via
-    #   -r requirements/prod.txt
+    #   -r prod.txt
     #   pip-tools
 setuptools==78.1.1
     # via pip-tools
