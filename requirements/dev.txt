@@ -18,13 +18,11 @@ factory-boy==3.3.3
     # via -r requirements/dev.in
 faker==15.3.1
     # via factory-boy
-importlib-metadata==6.6.0
-    # via pip-sync-faster
-ipython==9.7.0
+ipython==9.14.0
     # via -r requirements/dev.in
 ipython-pygments-lexers==1.1.1
     # via ipython
-jedi==0.18.1
+jedi==0.19.1
     # via ipython
 matplotlib-inline==0.1.6
     # via ipython
@@ -41,6 +39,8 @@ pip-tools==7.5.2
     #   -r requirements/dev.in
     #   pip-sync-faster
 prompt-toolkit==3.0.41
+    # via ipython
+psutil==7.2.2
     # via ipython
 ptyprocess==0.7.0
     # via pexpect
@@ -76,8 +76,6 @@ wcwidth==0.2.5
     # via prompt-toolkit
 wheel==0.38.4
     # via pip-tools
-zipp==3.19.1
-    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==25.3
