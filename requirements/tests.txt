@@ -24,8 +24,6 @@ h-testkit==1.0.1
     # via -r requirements/tests.in
 httpretty==1.1.4
     # via -r requirements/tests.in
-importlib-metadata==6.6.0
-    # via pip-sync-faster
 inflection==0.5.1
     # via pytest-factoryboy
 iniconfig==1.1.1
@@ -56,7 +54,7 @@ pytest==9.0.2
     #   -r requirements/tests.in
     #   pytest-cov
     #   pytest-factoryboy
-pytest-cov==7.0.0
+pytest-cov==7.1.0
     # via -r requirements/tests.in
 pytest-factoryboy==2.8.1
     # via -r requirements/tests.in
@@ -70,8 +68,6 @@ typing-extensions==4.7.1
     # via pytest-factoryboy
 wheel==0.38.4
     # via pip-tools
-zipp==3.19.1
-    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==25.3

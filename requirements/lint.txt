@@ -43,10 +43,7 @@ httpretty==1.1.4
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
 importlib-metadata==6.6.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pip-sync-faster
+    # via -r requirements/functests.txt
 inflection==0.5.1
     # via
     #   -r requirements/functests.txt
@@ -98,7 +95,7 @@ pytest==9.0.2
     #   -r requirements/tests.txt
     #   pytest-cov
     #   pytest-factoryboy
-pytest-cov==7.0.0
+pytest-cov==7.1.0
     # via -r requirements/tests.txt
 pytest-factoryboy==2.8.1
     # via
@@ -130,7 +127,6 @@ wheel==0.38.4
 zipp==3.19.1
     # via
     #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
     #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
