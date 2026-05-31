@@ -42,11 +42,6 @@ httpretty==1.1.4
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-importlib-metadata==6.6.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pip-sync-faster
 inflection==0.5.1
     # via
     #   -r requirements/functests.txt
@@ -92,7 +87,7 @@ pyproject-hooks==1.0.0
     #   -r requirements/tests.txt
     #   build
     #   pip-tools
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
@@ -127,11 +122,6 @@ wheel==0.38.4
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pip-tools
-zipp==3.19.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==25.3
