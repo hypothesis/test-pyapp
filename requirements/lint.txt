@@ -81,7 +81,7 @@ pluggy==1.5.0
     #   -r requirements/tests.txt
     #   pytest
     #   pytest-cov
-pygments==2.19.2
+pygments==2.21.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
@@ -92,7 +92,7 @@ pyproject-hooks==1.0.0
     #   -r requirements/tests.txt
     #   build
     #   pip-tools
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
@@ -134,12 +134,12 @@ zipp==3.19.1
     #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==25.3
+pip==26.2
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pip-tools
-setuptools==78.1.1
+setuptools==84.2.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
